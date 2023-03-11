@@ -1,5 +1,6 @@
 import jordan from "public/jordan.jpg";
 import Image from "next/image";
+import Link from "next/link";
 export default function AboutIndex() {
    return (
      <section className="text-white">
@@ -25,7 +26,7 @@ export default function AboutIndex() {
              customers at each stage of the buyer&apos;s journey. <br /> <br />{" "}
              All you need to do is record, I will handle the rest.
            </p>
-           <a
+           <Link
              href="/info"
              className="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 transition-all dark:text-primary-500 dark:hover:text-primary-700"
            >
@@ -42,7 +43,7 @@ export default function AboutIndex() {
                  clip-rule="evenodd"
                ></path>
              </svg>
-           </a>
+           </Link>
          </div>
          <div className="w-full md:w-1/2">
            <Image
