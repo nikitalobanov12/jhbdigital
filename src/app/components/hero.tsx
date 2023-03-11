@@ -42,7 +42,7 @@ Book a Call              <svg
                 ></path>
               </svg>
             </Link>
-            <div className="bg-secondary-200 text-black rounded-lg max-w-fit flex p-4 mt-4">
+            <div className="bg-secondary-200 text-black rounded-lg max-w-fit flex p-4 my-4">
               &quot;Jordan is the man behind the magic&quot; <br /> - William
               Gill, Fit Boss Coaching
               <div className="flex flex-wrap gap-2">

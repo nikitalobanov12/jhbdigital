@@ -16,7 +16,7 @@ export default function videoTestimonials() {
             src="https://fast.wistia.net/embed/iframe/w5xz0zl409?videoFoam=true"
             title="William Gill Testimonial Video"
             allow="autoplay; fullscreen"
-            className="max-w-full"
+            className="max-w-full aspect-video h-auto mb-4"
             name="wistia_embed"
             width="704"
             height="396"
@@ -54,11 +54,10 @@ export default function videoTestimonials() {
                 </svg>
               </div>
               <p className="text-base leading-6 text-gray-600 mt-4">
-               Jordan has been an absolute pleasure to work with...
-                He&apos;s a very proactive person... He&apos;s very easy to work
-                with, very willing to go above and beyond to make sure your
-                business really grows. Jordan is the man behind that magic
-               
+                Jordan has been an absolute pleasure to work with... He&apos;s a
+                very proactive person... He&apos;s very easy to work with, very
+                willing to go above and beyond to make sure your business really
+                grows. Jordan is the man behind that magic
               </p>
               <div className="absolute bottom-0 -mb-4 ml-10">
                 <Image
@@ -94,7 +93,7 @@ export default function videoTestimonials() {
             title="Testimonial Video"
             allow="autoplay; fullscreen"
             scrolling="no"
-            className="max-w-full "
+            className="max-w-full aspect-video h-auto mb-4 "
             name="wistia_embed"
             width="704"
             height="396"
@@ -132,12 +131,13 @@ export default function videoTestimonials() {
                 </svg>
               </div>
               <p className="text-base leading-6 text-gray-600 mt-4">
-                And it turned out that Jordan is really, really good when it comes to producing short form content... 
-                Jordan knows how to cut videos to make them go viral, and this
-                is amazing... Just give it a try, it worked out amazingly well... I can reccomend it to anyone who is in coaching, consulting, or owns an agency.
-               
+                And it turned out that Jordan is really, really good when it
+                comes to producing short form content... Jordan knows how to cut
+                videos to make them go viral, and this is amazing... Just give
+                it a try, it worked out amazingly well... I can reccomend it to
+                anyone who is in coaching, consulting, or owns an agency.
               </p>
-              
+
               <div className="absolute bottom-0 -mb-4 ml-10">
                 <Image
                   src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg2.svg"
