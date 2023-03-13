@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Hero from "@/app/components/abouthero";
-import AboutSection from "@/app/components/aboutsection";
 
 
 export default function Index() {
@@ -8,7 +7,7 @@ export default function Index() {
     <>
       <Head>
         <title>JHB Digital</title>
-        <meta name="description" content="vins" />
+        <meta name="description" content="Short form social media marketing agency for B2B Coaches, Consultants, and agencies. Skyrocket your inbound lead generation with short form content." />
       </Head>
       <Hero></Hero>
     

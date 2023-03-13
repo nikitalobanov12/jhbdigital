@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
        <link rel="icon" href="/_next/static/media/metadata/favicon.9ac8e0ee.ico" type="image/x-icon" sizes="any"/>
       </Head>
       <Header></Header>
+ 
       <Component {...pageProps} />
     </div>
   );

@@ -9,12 +9,14 @@ import VideoTestimonials from "./components/videoTestimonials"
 import Image from "next/image"
 import btw from "public/transition-blacktowhite.svg";
 import CTA from "./components/cta"
+import PainPoints from "./components/painpoints"
 
 export default function Home() {
   return (
     <div className="bg-background">
       <Header />
       <Hero />
+      <PainPoints></PainPoints>
       <AboutIndex />
       <Image
         src={btw.src}
@@ -23,7 +25,7 @@ export default function Home() {
         height={btw.height}
       />
       <Testimonials />
-      <InfoIndex />
+      <InfoIndex showButton={true} />
       <VideoTestimonials />
      
       <CTA/>

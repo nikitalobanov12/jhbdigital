@@ -53,7 +53,7 @@ export default function Header() {
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <Link
                 href="/contact"
-                className="text-sm font-semibold leading-6  hover:text-primary-500 transition-all"
+                className="text-sm font-semibold leading-6  hover:text-primary-500 hover:animate-pulse transition-all "
               >
                 Get Started <span aria-hidden="true">&rarr;</span>
               </Link>

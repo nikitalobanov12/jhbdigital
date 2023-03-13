@@ -40,7 +40,7 @@ export default function Testimonials() {
                    E&M Consulting
                  </span>
                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                   Matthias benefited from our service
+                   I helped scale Matthias&apos;s social media presence by repurposing his long-form content into short-form content
                  </p>
                </div>
              </div>
@@ -68,7 +68,7 @@ export default function Testimonials() {
                    Fit Boss Coaching
                  </span>
                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                   William saw massive growth
+                   I Drove traffic to his high ticket coaching funnel with short-form content posted on Instagram, Tik Tok, & Youtube
                  </p>
                </div>
              </div>
@@ -96,7 +96,7 @@ export default function Testimonials() {
                    Relationships Coach
                  </span>
                  <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                   Dan does what dan does
+                   Dan Gibson started with 500 followers, I made him go viral and now he doesn&apos;t have to cold-dm people, he has people dm&apos;ing him.
                  </p>
                </div>
              </div>
@@ -124,7 +124,7 @@ export default function Testimonials() {
                  Ecsedi Weight Loss
                </span>
                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                 Zoltan benefited tremendously from short form content
+                 Used my videos to completely revive their Instagram page from the dead, driving traffic to a high ticket weightloss offer.
                </p>
              </div>
            </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import will from "public/will-gill-pic.jpg";
 import matt from "public/matt.jpg";
-export default function videoTestimonials() {
+export default function VideoTestimonials() {
   return (
     <div className="bg-white">
       <div className="lg:px-20 md:px-6 px-4 py-12">

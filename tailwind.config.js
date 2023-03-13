@@ -33,6 +33,7 @@ module.exports = {
           900: "#27272d",
         },
         background: "#172434",
+        contact: "#242424",
       },
     },
     fontFamily: {
