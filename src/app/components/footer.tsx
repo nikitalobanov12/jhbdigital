@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <Link href="/" className="flex items-center">
-                <span className="self-center text-2xl font-semibold whitespace-nowrap hover:text-primary-500 transition ">
+                <span className="self-center text-2xl font-semibold whitespace-nowrap hover:text-primary-text transition ">
                   JHB Digital
                 </span>
               </Link>
@@ -23,7 +23,7 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
               <div>
                 <Link
-                  className="hover:text-primary-500 transition-all"
+                  className="hover:text-primary-text transition-all"
                   href="/info"
                 >
                   <h2 className="mb-6 text-sm font-semibold uppercase ">
@@ -32,7 +32,7 @@ export default function Footer() {
                 </Link>
               </div>
               <Link
-                className="hover:text-primary-500 transition-all"
+                className="hover:text-primary-text transition-all"
                 href={"/about"}
               >
                 <h2 className="mb-6 text-sm font-semibold  uppercase ">
@@ -40,13 +40,13 @@ export default function Footer() {
                 </h2>
               </Link>
               <Link
-                className="hover:text-primary-500 transition-all"
+                className="hover:text-primary-text transition-all"
                 href={"/"}
               >
                 <h2 className="mb-6 text-sm font-semibold  uppercase ">Home</h2>
               </Link>
               <Link
-                className="hover:text-primary-500 transition-all"
+                className="hover:text-primary-text transition-all"
                 href={"/contact"}
               >
                 <h2 className="mb-6 text-sm font-semibold  uppercase ">Contact</h2>
@@ -77,7 +77,7 @@ export default function Footer() {
             <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <Link
                 href="https://twitter.com/jordanbaaailey"
-                className="text-gray-500 hover:text-primary-500  transition-all"
+                className="text-gray-500 hover:text-primary-text  transition-all"
               >
                 <svg
                   className="w-5 h-5"

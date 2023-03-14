@@ -24,7 +24,7 @@ export default function CTA() {
               <span className="text-primary-text italic">Short form</span>{" "}
               marketing services
             </h2>
-            <ul className="text-lg  marker:text-primary-500 ">
+            <ul className="text-lg  marker:text-primary-text ">
               <li className="leading-normal list-disc">
                 Your own {" "}
                 <span className="text-primary-text italic">

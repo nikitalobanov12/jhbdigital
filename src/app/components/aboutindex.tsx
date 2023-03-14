@@ -7,18 +7,18 @@ export default function AboutIndex() {
        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 md:flex flex-row-reverse">
          <div className="  sm:text-lg w-full md:w-1/2 mb-4">
            <h1 className="mb-4 text-4xl tracking-tight font-bold  ">
-             <span className="italic font-semibold text-primary-500">
+             <span className="italic font-semibold text-primary-text">
                JHB Digital
              </span>{" "}
              <br /> B2B Content Marketing Agency
            </h1>
            <p className="mb-4 font-medium">
              My name&apos;s Jordan. <br /> <br /> I Turn{" "}
-             <span className="italic font-semibold text-primary-500">
+             <span className="italic font-semibold text-primary-text">
                Coaches and Agency owners
              </span>{" "}
              into dominant figures in their niche, <br /> helping them{" "}
-             <span className="italic font-semibold text-primary-500">
+             <span className="italic font-semibold text-primary-text">
                {" "}
                utilize short-form content{" "}
              </span>
@@ -26,33 +26,33 @@ export default function AboutIndex() {
              <br /> And I&apos;m here to help you too. <br /> <br /> When you
              outsource your digital marketing services to me,
              <br /> you will be able to{" "}
-             <span className="italic font-semibold text-primary-500">
+             <span className="italic font-semibold text-primary-text">
                save weeks if not months
              </span>{" "}
              that you would otherwise spend going back and forth with low
              quality-freelancers. <br />
              <br /> You will{" "}
-             <span className="italic font-semibold text-primary-500">
+             <span className="italic font-semibold text-primary-text">
                dominate your niche
              </span>
              with a{" "}
-             <span className="italic font-semibold text-primary-500">
+             <span className="italic font-semibold text-primary-text">
                defined personal brand
              </span>
              and social media presence, and unlock a stream of new inbound leads
              that you wouldve had no access to otherwise. <br />
              <br /> with me, you can{" "}
-             <span className="italic font-semibold text-primary-500">
+             <span className="italic font-semibold text-primary-text">
                streamline your lead generation and lead nurturing processes
              </span>
              , delivering personalized content to potential customers at each
              stage of the buyer&apos;s journey. <br /> <br />{" "}
-             <span className="italic font-semibold text-primary-500">All
+             <span className="italic font-semibold text-primary-text">All
              you need to do is record,</span> I will handle the rest.
            </p>
            <Link
              href="/info"
-             className="inline-flex items-center font-medium text-white bg-primary-500 p-3 rounded-xl hover:bg-white hover:text-primary-500 transition-all dark:text-primary-500 dark:hover:text-primary-700"
+             className="inline-flex items-center font-medium text-white bg-primary-text p-3 rounded-xl hover:bg-white hover:text-primary-text transition-all dark:text-primary-text dark:hover:text-primary-700"
            >
              Learn more
              <svg

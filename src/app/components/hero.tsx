@@ -16,8 +16,8 @@ export default function Hero() {
             </p>
             <h1 className="max-w-2xl mb-4 text-3xl font-bold tracking-tight md:text-4xl xl:text-5xl ">
               {" "}
-              I will script, edit, and post<span className="italic font-semibold text-primary-500"> unlimited short-form videos</span> for your
-              brand, <br /> <br />  100%<span className="italic font-semibold text-primary-500"> done for you.</span> <br /> <br /> If you don&apos;t get  <span className="italic font-semibold text-primary-500">250,000
+              I will script, edit, and post<span className="italic font-semibold text-primary-text"> unlimited short-form videos</span> for your
+              brand, <br /> <br />  100%<span className="italic font-semibold text-primary-text"> done for you.</span> <br /> <br /> If you don&apos;t get  <span className="italic font-semibold text-primary-text">250,000
               views in 90 days</span>, you don&apos;t pay.
             </h1>
           
@@ -27,7 +27,7 @@ export default function Hero() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center  rounded-lg bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 transition-all"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center  rounded-lg bg-primary-text hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 transition-all"
             >
 Book a Call              <svg
                 className="w-5 h-5 ml-2 -mr-1"

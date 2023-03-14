@@ -24,7 +24,7 @@ export default function Header() {
             <div className="flex lg:flex-1">
               <Link
                 href="/"
-                className="-m-1.5 p-1.5 hover:text-primary-500 transition-all"
+                className="-m-1.5 p-1.5 hover:text-primary-text transition-all"
               >
                 <span className="text-lg">JHB Digital</span>
               </Link>
@@ -44,7 +44,7 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-semibold leading-6 hover:text-primary-500 transition-all "
+                  className="text-sm font-semibold leading-6 hover:text-primary-text transition-all "
                 >
                   {item.name}
                 </Link>
@@ -53,7 +53,7 @@ export default function Header() {
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <Link
                 href="/contact"
-                className="text-sm font-semibold leading-6  hover:text-primary-500 hover:animate-pulse transition-all "
+                className="text-sm font-semibold leading-6  hover:text-primary-text hover:animate-pulse transition-all "
               >
                 Get Started <span aria-hidden="true">&rarr;</span>
               </Link>
@@ -63,7 +63,7 @@ export default function Header() {
             <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-background px-6 py-6 lg:hidden">
               <div className="flex items-center justify-between">
                 <Link href="#" className="-m-1.5 p-1.5">
-                  <span className="text-white hover:text-primary-500 transition-all">
+                  <span className="text-white hover:text-primary-text transition-all">
                     JHB Digital
                   </span>
                 </Link>
@@ -74,7 +74,7 @@ export default function Header() {
                 >
                   <span className="sr-only">Close menu</span>
                   <XMarkIcon
-                    className="h-6 w-6 text-white hover:text-primary-500 transition-all"
+                    className="h-6 w-6 text-white hover:text-primary-text transition-all"
                     aria-hidden="true"
                   />
                 </button>
