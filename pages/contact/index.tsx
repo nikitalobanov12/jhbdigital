@@ -1,8 +1,6 @@
 import Head from "next/head";
 import CalendlyWidget from "@/app/components/calendly";
-import Link from "next/link";
-import Image from "next/image";
-import twitter from "public/twitterIcon.svg";
+
 
 export default function Index() {
   return (
@@ -14,7 +12,6 @@ export default function Index() {
       <div className="h-12"></div>
 
       <CalendlyWidget></CalendlyWidget>
-   
     </div>
   );
 }

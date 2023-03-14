@@ -20,7 +20,7 @@ export default function Footer() {
                 </span>
               </Link>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
               <div>
                 <Link
                   className="hover:text-primary-500 transition-all"
@@ -45,11 +45,17 @@ export default function Footer() {
               >
                 <h2 className="mb-6 text-sm font-semibold  uppercase ">Home</h2>
               </Link>
+              <Link
+                className="hover:text-primary-500 transition-all"
+                href={"/contact"}
+              >
+                <h2 className="mb-6 text-sm font-semibold  uppercase ">Contact</h2>
+              </Link>
             </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <span className="text-sm text-white sm:text-center dark:text-gray-400">
               Designed by{" "}
               <Link
                 href="https://www.seosurge.net"

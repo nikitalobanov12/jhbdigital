@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <div className="relative bg-background min-h-[85vh] flex items-center py-16">
-        <div className="max-w-7xl flex flex-col items-center md:flex-row mx-auto  sm:px-6 lg:px-8">
+        <div className="max-w-7xl flex flex-col items-center md:flex-row-reverse mx-auto  sm:px-6 lg:px-8">
           <div className="text-left px-4 ">
             <h1
               className="text-2xl md:text-5xl font-bold  italic
@@ -15,26 +15,26 @@ const Hero = () => {
               Short form content marketing
             </h1>
             <p className="text-white text-lg md:text-xl -">
-              Find out how I am using short form content marketing to help my clients:
+              Find out how I am using my <span className="text-primary-text italic">social media</span> marketing strategy to help my clients:
             </p>
             <ul className="text-lg md:text-xl mt-4 mb-8 text-white text-left list-inside ">
               <li className="list-disc leading-loose  ">
-                Attract leads with ease
+                 <span className="text-primary-text italic">Attract leads</span> with ease
               </li>
               <li className="list-disc leading-loose ">
-                Establish authority 
+                <span className="text-primary-text italic">Establish</span>  authority 
               </li>
               <li className="list-disc leading-loose ">
-                Easily close sales calls
+                 <span className="text-primary-text italic">Easily</span> close sales calls
               </li>
               <li className="list-disc leading-loose ">
-               Scale marketing systems
+               <span className="text-primary-text italic">Scale</span> marketing systems
               </li>
               <li className="list-disc leading-loose ">
-                Keep up with new technology
+                 <span className="text-primary-text italic">Keep up</span> with new technology
               </li>
               <li className="list-disc leading-loose ">
-                Avoid spending any money on ads
+                 <span className="text-primary-text italic">Avoid spending any money</span> on ads
               </li>
             </ul>
           </div>
