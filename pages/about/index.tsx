@@ -6,7 +6,7 @@ export default function Index() {
   return (
     <div className="bg-background">
       <Head>
-        <title>JHB Digital</title>
+        <title>About JHB Digital</title>
         <meta name="description" content="Short form social media marketing agency for B2B Coaches, Consultants, and agencies. Skyrocket your inbound lead generation with short form content." />
       </Head>
       <Hero></Hero>

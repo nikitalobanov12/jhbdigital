@@ -17,7 +17,7 @@ export default function Hero() {
             <h1 className="max-w-2xl mb-4 text-3xl font-bold tracking-tight md:text-4xl xl:text-5xl ">
               {" "}
               I will script, edit, and post<span className="italic font-semibold text-primary-500"> unlimited short-form videos</span> for your
-              brand, <br /> <br />  100%<span className="italic font-semibold text-primary-500"> done for you.</span> <br /> <br /> If you don&apos;t get  <span className="italic font-semibold text-primary-500">100,000
+              brand, <br /> <br />  100%<span className="italic font-semibold text-primary-500"> done for you.</span> <br /> <br /> If you don&apos;t get  <span className="italic font-semibold text-primary-500">250,000
               views in 90 days</span>, you don&apos;t pay.
             </h1>
           
